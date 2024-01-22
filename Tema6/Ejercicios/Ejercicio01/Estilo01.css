@@ -1,0 +1,20 @@
+table{
+    width: 400px;
+    border-collapse: collapse;
+    border: solid 2px;
+    border-color: black;
+    background-color: gainsboro;
+}
+td{
+    width: 25%;
+    border: solid 2px;
+    border-color: black;
+    text-align: center;
+}
+th{
+    width: 25%;
+    border: solid 2px;
+    border-color: black;
+    text-align: center;
+    background-color: gray;
+}
