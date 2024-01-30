@@ -41,3 +41,9 @@ section{
 thead{
     margin-top: 1%;
 }
+td.green{
+    color: rgb(4, 250, 4);
+}
+td.red{
+    color: red;
+}
