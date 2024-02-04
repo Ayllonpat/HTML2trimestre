@@ -47,3 +47,9 @@ td.green{
 td.red{
     color: red;
 }
+tbody tr:hover{
+    background-color: burlywood;
+}
+tbody tr td:hover{
+    background-color: rgb(176, 150, 116);
+}
