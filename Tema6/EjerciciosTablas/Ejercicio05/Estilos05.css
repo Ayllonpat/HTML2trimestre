@@ -1,0 +1,31 @@
+table{
+    width: 1000px;
+    height: 1000px;
+    border-collapse: collapse;
+    background-color: bisque;
+}
+td{
+    width: 10%;
+    height: 10%;
+    text-align: center;
+
+}
+
+tr:nth-child(even) > td:nth-child(odd){ 
+    background-color: rgb(187, 145, 95);
+}
+td:nth-child(odd) > tr:nth-child(even){
+    background-color: bisque;
+}
+td:first-child{
+    background-color: white;
+}
+td:last-child{
+    background-color: white;
+}
+tr:first-child{
+    background-color: white;
+}
+tr:last-child{
+    background-color: white;
+}
