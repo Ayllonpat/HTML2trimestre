@@ -1,0 +1,7 @@
+fieldset{
+    text-align: right; /*normalmente para maquetar hay que poner displayblock*/
+    width: 300px;
+    background-color: pink;
+    padding: 1%;
+    margin-left: 40%;
+}
