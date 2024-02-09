@@ -1,0 +1,12 @@
+fieldset{
+    display: flexbox; /*normalmente para maquetar hay que poner displayblock*/
+    width: 300px;
+    background-color: pink;
+    padding: 1%;
+    margin-left: 40%;
+}
+input[type="image"]{
+    width: 22px;
+    display: flexbox;
+    position: end;
+}

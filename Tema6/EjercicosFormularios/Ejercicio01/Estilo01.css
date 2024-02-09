@@ -5,3 +5,13 @@ fieldset{
     padding: 1%;
     margin-left: 40%;
 }
+
+/*input:focus{
+    background-color: antiquewhite;
+    color:red
+}
+
+input[type="submit"]:focus{
+    background-color: initial;
+    color:initial;
+}*/
