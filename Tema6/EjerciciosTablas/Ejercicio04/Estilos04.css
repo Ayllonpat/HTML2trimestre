@@ -1,0 +1,46 @@
+table{
+    width: 1000px;
+    border-collapse: collapse;
+    background-color: white;
+}
+th{
+    text-align: center;
+}
+tr{
+
+}
+tr.titulos{
+    border-bottom: solid 2px;
+    border-color: red;
+}
+th.gc{
+    padding-right: 20px;
+    width: 36px;
+}
+tr:nth-child(odd){
+    background-color: rgb(209, 209, 209);
+}
+tr.cl{
+    border-bottom: solid 2px;
+    border-color: black;
+    background-color: white;
+}
+tr.titulos th{
+    width: 10px;
+}
+td{
+    text-align: center;
+}
+th{
+    padding: 1%;
+}
+td{
+    padding: 1%;
+}
+td:first-child{
+    width: 0.5%;
+    padding-right: -10%;
+}
+td.nombre{
+    width: 105px;
+}
