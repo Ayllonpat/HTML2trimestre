@@ -6,9 +6,6 @@ table{
 th{
     text-align: center;
 }
-tr{
-
-}
 tr.titulos{
     border-bottom: solid 2px;
     border-color: red;
@@ -40,7 +37,24 @@ td{
 td:first-child{
     width: 0.5%;
     padding-right: -10%;
+    border-left: solid;
+    border-color: gray;
 }
 td.nombre{
     width: 105px;
+}
+td.verde{
+    border-left: solid;
+    border-color: green;
+}
+td.amarillo{
+    border-left: solid;
+    border-color: yellow;
+}
+td.rojo{
+    border-left: solid;
+    border-color: red;
+}
+tfoot tr{
+    
 }
